@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RxAVFoundation"
-  s.version          = "3.0.0"
+  s.version          = "3.1.0"
   s.summary          = "Functional Reactive (RxSwift) extensions for AVFoundations"
   s.homepage         = "https://github.com/pmick/RxAVFoundation"
   s.license          = 'MIT'
@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Source/*.swift'
 
-  s.dependency 'RxSwift', '~> 5.0'
-  s.dependency 'RxCocoa', '~> 5.0'
+  s.dependency 'RxSwift', '~> 5.1'
+  s.dependency 'RxCocoa', '~> 5.1'
 end
